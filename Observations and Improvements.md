@@ -20,3 +20,9 @@ The current number of hidden layer seemed to be reasonable w.r.t to the improvem
 - Adam Optimizer was used because SGD optimizer didn't work for regression.
 - Callbacks like Early Stopping and ReduceLROnPlateau worked well with model.
 - Inspite of all these, the models rmse was as high as 55k (May be beacuse of the scattered dataset)
+
+# Possible Improvements:
+
+Some possible improvement to all these can be:
+- Better data cleaning and data preprocessing steps may help in improving model accuracy (like outliers removal)
+- Better algorithms and optimizers might also help. (Though the first point seems to be more promising)
