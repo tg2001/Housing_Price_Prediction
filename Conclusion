@@ -1,0 +1,6 @@
+Conclusions:
+
+- Since the dataset is taken from real world, its full of noise. In a real world data, its not possible to get a graph, that is representative of all the situations.
+- The ideal graph between y_pred and y_true should be a straight, 45 degree line. But the actual one has a lot more deviation, which is expected.
+- The rmse on the standard scaled output is min in case of the second rnn. The normal rmse (i.e., after removing the scaling) is around 50k, which is quite high.
+- The performance of linear regression and svm is also given in the notebook. The performance on trees, forest and ensemble is given online (Yeah, I browsed the net in search of something better, but didn't get any)
