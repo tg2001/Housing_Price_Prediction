@@ -5,3 +5,5 @@ Conclusions:
 - The rmse on the standard scaled output is min in case of the second rnn. The normal rmse (i.e., after removing the scaling) is around 50k, which is quite high.
 - The performance of linear regression and svm is also given in the notebook. The performance on trees, forest and ensemble is given online (I browsed the net in search of a better way of tackling the problem, but didn't get any)
 - The comments in the model training cells represent the different possible combinations of layers used to train the model, and the one which gave the best performance is kept un-commented
+- The model gives a rmse of between 49k to 55k in most cases. From the last graph, it can be seen that for most cases, the predctions are quite near to the expected values.
+- There are many outliers too, but the only way to deal with them is probably to remove them, but which is again not a suitable solution, because these outliers make our models more robust to changes
